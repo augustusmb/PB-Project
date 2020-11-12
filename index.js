@@ -3,7 +3,6 @@ import { getProductPrice } from './Utils/getPrice.js'
 
 const addToLocalStorage = product => {
   localStorage.setItem(product.name, JSON.stringify(product))
-  console.log('item added to storage', product)
 }
 
 document.addEventListener('DOMContentLoaded', event => {
